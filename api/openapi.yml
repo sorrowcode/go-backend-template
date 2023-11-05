@@ -1,0 +1,57 @@
+openapi: 3.0.3
+info:
+  title: sorrowcode go http note
+  version: 0.0.1
+servers:
+  - url: https://api.server.test/v1
+paths:
+  /notes:
+    get:
+      description: ''
+      parameters: []
+      responses:
+        '200':
+          description: OK
+    post:
+      description: ''
+      parameters: []
+      responses:
+        '200':
+          description: OK
+    put:
+      description: ''
+      parameters: []
+      responses:
+        '200':
+          description: OK
+    delete:
+      description: ''
+      parameters: []
+      responses:
+        '200':
+          description: OK
+  /notes/{note-id}:
+    get:
+      description: ''
+      parameters: []
+      responses:
+        '200':
+          description: OK
+    post:
+      description: ''
+      parameters: []
+      responses:
+        '200':
+          description: OK
+    put:
+      description: ''
+      parameters: []
+      responses:
+        '200':
+          description: OK
+    delete:
+      description: ''
+      parameters: []
+      responses:
+        '200':
+          description: OK
